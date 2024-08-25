@@ -1,34 +1,34 @@
 ========================================================================
-�s��    �́t Human68k ITA TOOLBOX #20 "tail" v1.4
-�s�o �^ ���t TAIL14.LZH
-�s��    �t�t 95/06/03 19:35:54
-�s�� �� �ҁt �_�@�j�F (QGB02101)
-�s��    �ҁt �_�@�j�F (QGB02101)
-�s�f �� �ҁt �_�@�j�F (QGB02101)
-�s�� �� ���t ����
-�s�W�J���@�t LHA e TAIL14.LZH
-�s�]    �ځt �����t�@�C�� NOTICE �ɋL�ڂ��ꂽ�Еz�����ɏ]�����ƁB
+《名    称》 Human68k ITA TOOLBOX #20 "tail" v1.4
+《登 録 名》 TAIL14.LZH
+《日    付》 95/06/03 19:35:54
+《原 作 者》 板垣　史彦 (QGB02101)
+《作    者》 板垣　史彦 (QGB02101)
+《掲 載 者》 板垣　史彦 (QGB02101)
+《著 作 権》 留保
+《展開方法》 LHA e TAIL14.LZH
+《転    載》 同梱ファイル NOTICE に記載された頒布条件に従うこと。
 ========================================================================
-�s��    �l�t
+《備    考》
 
-    �t�@�C���̖����������o�͂���R�}���h�ł��B
-    UNIX �� tail �R�}���h�Ƃقړ����ł��B
+    ファイルの末尾部分を出力するコマンドです。
+    UNIX の tail コマンドとほぼ同等です。
 
-    �Ǝ��̊g���`�� tail -count1-count2 �� tail -count1 | head -count2 ��
-    �������ʂ������AHuman68k �̃p�C�v�̐�����������邱�Ƃ��ł��܂��B
-    �܂��A���Ƃ��� tail -q +count1-count2 a b c �Ńt�@�C�� a, b, c ��
-    count1 �s�ڂ��� count2�s�������o���ĘA�����邱�Ƃ��ł��܂��B
+    独自の拡張形式 tail -count1-count2 で tail -count1 | head -count2 と
+    同じ結果が得られ、Human68k のパイプの制限を回避することができます。
+    また、たとえば tail -q +count1-count2 a b c でファイル a, b, c の
+    count1 行目から count2行分を取り出して連結することができます。
 
-    v1.3 �� v1.4
+    v1.3 → v1.4
 
-      * �o�͂�cooked���[�h�̃L�����N�^�E�f�o�C�X�łȂ��ꍇ�� -B�I�v�V��
-        �����w�肳��Ă���ꍇ��, +count1-count2 �� -count1-count2 �̌`
-        ����count2���s�P�ʂł����Ă��o�C�g�P�ʂƂ��ď�������Ă��܂��s��
-        �����C��.�iThanks to ���l�j
+      * 出力がcookedモードのキャラクタ・デバイスでない場合や -Bオプショ
+        ンが指定されている場合に, +count1-count2 や -count1-count2 の形
+        式でcount2が行単位であってもバイト単位として処理されてしまう不具
+        合を修正.（Thanks to 民斗）
 
 
-# �V�F�A�E�F�A�����R�[�i�[
-# �V�F�A�E�F�A�ԍ�: 0728
+# シェアウェア送金コーナー
+# シェアウェア番号: 0728
 
 
 FILENAME: TAIL14.LZH

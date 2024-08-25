@@ -1,6 +1,6 @@
-MANIFEST       ���̃t�@�C��
-README         �܂��ŏ��ɂ��ǂ݉�����
-NOTICE         �Ō��Ƌ����ɂ��Ă̍�����
-CHANGES        tail�̃��f���`�F���W�̗���
-tail.1         tail�̃}�j���A��
-tail.x         tail���s�t�@�C��
+MANIFEST       このファイル
+README         まず最初にお読み下さい
+NOTICE         版権と許諾についての告示書
+CHANGES        tailのモデルチェンジの履歴
+tail.1         tailのマニュアル
+tail.x         tail実行ファイル

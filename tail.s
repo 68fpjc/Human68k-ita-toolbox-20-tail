@@ -2,26 +2,26 @@
 *
 * Itagaki Fumihiko 07-Feb-93  Create.
 * 1.0
-* Itagaki Fumihiko 19-Feb-93  •W€“ü—Í‚ªØ‚è‘Ö‚¦‚ç‚ê‚Ä‚¢‚Ä‚à’[––‚©‚ç^C‚â^S‚È‚Ç‚ªŒø‚­‚æ‚¤‚É‚µ‚½
-* Itagaki Fumihiko 19-Feb-93  ƒV[ƒN‚Å‚«‚È‚¢ƒfƒoƒCƒX‚©‚ç‚Ì -<N>l ‚ª³í‚É“®ì‚µ‚È‚¢ƒoƒO‚ğC³
-* Itagaki Fumihiko 22-Feb-93  +<N> ‚ÌŒ‹‰Ê‚ª 1 ‚¸‚ê‚Ä‚¢‚éƒoƒOid—l‚ÌƒoƒOj‚ğC³
-* Itagaki Fumihiko 24-Feb-93  ƒV[ƒN‰Â”\‚©‚Ç‚¤‚©‚Ì”»’è•û–@‚ğ•ÏX
+* Itagaki Fumihiko 19-Feb-93  æ¨™æº–å…¥åŠ›ãŒåˆ‡ã‚Šæ›¿ãˆã‚‰ã‚Œã¦ã„ã¦ã‚‚ç«¯æœ«ã‹ã‚‰^Cã‚„^Sãªã©ãŒåŠ¹ãã‚ˆã†ã«ã—ãŸ
+* Itagaki Fumihiko 19-Feb-93  ã‚·ãƒ¼ã‚¯ã§ããªã„ãƒ‡ãƒã‚¤ã‚¹ã‹ã‚‰ã® -<N>l ãŒæ­£å¸¸ã«å‹•ä½œã—ãªã„ãƒã‚°ã‚’ä¿®æ­£
+* Itagaki Fumihiko 22-Feb-93  +<N> ã®çµæœãŒ 1 ãšã‚Œã¦ã„ã‚‹ãƒã‚°ï¼ˆä»•æ§˜ã®ãƒã‚°ï¼‰ã‚’ä¿®æ­£
+* Itagaki Fumihiko 24-Feb-93  ã‚·ãƒ¼ã‚¯å¯èƒ½ã‹ã©ã†ã‹ã®åˆ¤å®šæ–¹æ³•ã‚’å¤‰æ›´
 * 1.1
-* Itagaki Fumihiko 08-Jan-94  RAW CHAR ƒfƒoƒCƒX‚ğ“ü—Í‚·‚é‚Æ–³ğŒƒ‹[ƒv‚É“ü‚éƒoƒO‚ğC³
+* Itagaki Fumihiko 08-Jan-94  RAW CHAR ãƒ‡ãƒã‚¤ã‚¹ã‚’å…¥åŠ›ã™ã‚‹ã¨ç„¡æ¡ä»¶ãƒ«ãƒ¼ãƒ—ã«å…¥ã‚‹ãƒã‚°ã‚’ä¿®æ­£
 * Itagaki Fumihiko 09-Jan-94  Brush up.
 * Itagaki Fumihiko 29-Aug-94  Brush up.
-* Itagaki Fumihiko 10-Oct-94  count‚ÌŒ`®‚ğŠg’£.
+* Itagaki Fumihiko 10-Oct-94  countã®å½¢å¼ã‚’æ‹¡å¼µ.
 * 1.2
-* Itagaki Fumihiko 10-Oct-94  +count1-count2 ‚â -count1-count2 ‚Ì count2 ‚ªÅ‰‚Ìƒtƒ@ƒCƒ‹‚É‚µ‚©
-*                             Œø‚©‚È‚¢ƒoƒO‚ğC³
+* Itagaki Fumihiko 10-Oct-94  +count1-count2 ã‚„ -count1-count2 ã® count2 ãŒæœ€åˆã®ãƒ•ã‚¡ã‚¤ãƒ«ã«ã—ã‹
+*                             åŠ¹ã‹ãªã„ãƒã‚°ã‚’ä¿®æ­£
 * 1.3
-* Itagaki Fumihiko 03-Jun-95  o—Í‚ªcookedƒ‚[ƒh‚ÌƒLƒƒƒ‰ƒNƒ^EƒfƒoƒCƒX‚Å‚È‚¢ê‡‚â -BƒIƒvƒVƒ‡ƒ“
-*                             ‚ªw’è‚³‚ê‚Ä‚¢‚éê‡‚É, +count1-count2 ‚â -count1-count2 ‚ÌŒ`®‚Å
-*                             count2 ‚ªs’PˆÊ‚Å‚ ‚Á‚Ä‚àƒoƒCƒg’PˆÊ‚Æ‚µ‚Äˆ—‚³‚ê‚Ä‚µ‚Ü‚¤•s‹ï‡‚ğ
-*                             C³.
+* Itagaki Fumihiko 03-Jun-95  å‡ºåŠ›ãŒcookedãƒ¢ãƒ¼ãƒ‰ã®ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ãƒ»ãƒ‡ãƒã‚¤ã‚¹ã§ãªã„å ´åˆã‚„ -Bã‚ªãƒ—ã‚·ãƒ§ãƒ³
+*                             ãŒæŒ‡å®šã•ã‚Œã¦ã„ã‚‹å ´åˆã«, +count1-count2 ã‚„ -count1-count2 ã®å½¢å¼ã§
+*                             count2 ãŒè¡Œå˜ä½ã§ã‚ã£ã¦ã‚‚ãƒã‚¤ãƒˆå˜ä½ã¨ã—ã¦å‡¦ç†ã•ã‚Œã¦ã—ã¾ã†ä¸å…·åˆã‚’
+*                             ä¿®æ­£.
 * 1.4
 *
-* Usage: tail [ -qvBCZ ] { [ {+-}<#>[ckl][-<#>[ckl]] | -[<#>]r ] [ -- ] [ <ƒtƒ@ƒCƒ‹> ] } ...
+* Usage: tail [ -qvBCZ ] { [ {+-}<#>[ckl][-<#>[ckl]] | -[<#>]r ] [ -- ] [ <ãƒ•ã‚¡ã‚¤ãƒ«> ] } ...
 
 .include doscall.h
 .include chrcode.h
@@ -67,8 +67,8 @@ start:
 		dc.b	'#HUPAIR',0
 start1:
 		lea	bss_top(pc),a6
-		lea	stack_bottom(a6),a7		*  A7 := ƒXƒ^ƒbƒN‚Ì’ê
-		lea	$10(a0),a0			*  A0 : PDBƒAƒhƒŒƒX
+		lea	stack_bottom(a6),a7		*  A7 := ã‚¹ã‚¿ãƒƒã‚¯ã®åº•
+		lea	$10(a0),a0			*  A0 : PDBã‚¢ãƒ‰ãƒ¬ã‚¹
 		move.l	a7,d0
 		sub.l	a0,d0
 		move.l	d0,-(a7)
@@ -78,22 +78,22 @@ start1:
 	*
 		move.l	#-1,stdin(a6)
 	*
-	*  ˆø”•À‚ÑŠi”[ƒGƒŠƒA‚ğŠm•Û‚·‚é
+	*  å¼•æ•°ä¸¦ã³æ ¼ç´ã‚¨ãƒªã‚¢ã‚’ç¢ºä¿ã™ã‚‹
 	*
-		lea	1(a2),a0			*  A0 := ƒRƒ}ƒ“ƒhƒ‰ƒCƒ“‚Ì•¶š—ñ‚Ìæ“ªƒAƒhƒŒƒX
-		bsr	strlen				*  D0.L := ƒRƒ}ƒ“ƒhƒ‰ƒCƒ“‚Ì•¶š—ñ‚Ì’·‚³
+		lea	1(a2),a0			*  A0 := ã‚³ãƒãƒ³ãƒ‰ãƒ©ã‚¤ãƒ³ã®æ–‡å­—åˆ—ã®å…ˆé ­ã‚¢ãƒ‰ãƒ¬ã‚¹
+		bsr	strlen				*  D0.L := ã‚³ãƒãƒ³ãƒ‰ãƒ©ã‚¤ãƒ³ã®æ–‡å­—åˆ—ã®é•·ã•
 		addq.l	#1,d0
 		bsr	malloc
 		bmi	insufficient_memory
 
-		movea.l	d0,a1				*  A1 := ˆø”•À‚ÑŠi”[ƒGƒŠƒA‚Ìæ“ªƒAƒhƒŒƒX
+		movea.l	d0,a1				*  A1 := å¼•æ•°ä¸¦ã³æ ¼ç´ã‚¨ãƒªã‚¢ã®å…ˆé ­ã‚¢ãƒ‰ãƒ¬ã‚¹
 	*
-	*  ˆø”‚ğƒfƒR[ƒh‚µC‰ğß‚·‚é
+	*  å¼•æ•°ã‚’ãƒ‡ã‚³ãƒ¼ãƒ‰ã—ï¼Œè§£é‡ˆã™ã‚‹
 	*
-		bsr	DecodeHUPAIR			*  ˆø”‚ğƒfƒR[ƒh‚·‚é
-		movea.l	a1,a0				*  A0 : ˆø”ƒ|ƒCƒ“ƒ^
-		move.l	d0,d7				*  D7.L : ˆø”ƒJƒEƒ“ƒ^
-		moveq	#0,d5				*  D5.B : ƒtƒ‰ƒO
+		bsr	DecodeHUPAIR			*  å¼•æ•°ã‚’ãƒ‡ã‚³ãƒ¼ãƒ‰ã™ã‚‹
+		movea.l	a1,a0				*  A0 : å¼•æ•°ãƒã‚¤ãƒ³ã‚¿
+		move.l	d0,d7				*  D7.L : å¼•æ•°ã‚«ã‚¦ãƒ³ã‚¿
+		moveq	#0,d5				*  D5.B : ãƒ•ãƒ©ã‚°
 		move.l	#DEFAULT_COUNT,count(a6)
 decode_opt_loop1:
 		tst.l	d7
@@ -189,12 +189,12 @@ set_option_done:
 decode_opt_done:
 		bsr	parse_count
 	*
-		moveq	#1,d0				*  o—Í‚Í
-		bsr	is_chrdev			*  ƒLƒƒƒ‰ƒNƒ^EƒfƒoƒCƒX‚©H
+		moveq	#1,d0				*  å‡ºåŠ›ã¯
+		bsr	is_chrdev			*  ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ãƒ»ãƒ‡ãƒã‚¤ã‚¹ã‹ï¼Ÿ
 		seq	do_buffering(a6)
-		beq	stdout_is_block_device		*  -- ƒuƒƒbƒNEƒfƒoƒCƒX‚Å‚ ‚é
+		beq	stdout_is_block_device		*  -- ãƒ–ãƒ­ãƒƒã‚¯ãƒ»ãƒ‡ãƒã‚¤ã‚¹ã§ã‚ã‚‹
 	*
-	*  o—Í‚ÍƒLƒƒƒ‰ƒNƒ^EƒfƒoƒCƒX
+	*  å‡ºåŠ›ã¯ã‚­ãƒ£ãƒ©ã‚¯ã‚¿ãƒ»ãƒ‡ãƒã‚¤ã‚¹
 	*
 		btst	#5,d0				*  '0':cooked  '1':raw
 		bne	outbuf_ok
@@ -207,20 +207,20 @@ decode_opt_done:
 
 stdout_is_block_device:
 	*
-	*  stdout‚ÍƒuƒƒbƒNEƒfƒoƒCƒX
+	*  stdoutã¯ãƒ–ãƒ­ãƒƒã‚¯ãƒ»ãƒ‡ãƒã‚¤ã‚¹
 	*
-		*  o—Íƒoƒbƒtƒ@‚ğŠm•Û‚·‚é
+		*  å‡ºåŠ›ãƒãƒƒãƒ•ã‚¡ã‚’ç¢ºä¿ã™ã‚‹
 		*
 		move.l	#OUTBUF_SIZE,d0
 		move.l	d0,outbuf_free(a6)
 		bsr	malloc
 		bmi	insufficient_memory
 
-		movea.l	d0,a4				*  A4 : o—Íƒoƒbƒtƒ@‚Ìæ“ªƒAƒhƒŒƒX
-		movea.l	d0,a5				*  A5 : o—Íƒoƒbƒtƒ@‚Ìƒ|ƒCƒ“ƒ^
+		movea.l	d0,a4				*  A4 : å‡ºåŠ›ãƒãƒƒãƒ•ã‚¡ã®å…ˆé ­ã‚¢ãƒ‰ãƒ¬ã‚¹
+		movea.l	d0,a5				*  A5 : å‡ºåŠ›ãƒãƒƒãƒ•ã‚¡ã®ãƒã‚¤ãƒ³ã‚¿
 outbuf_ok:
 	*
-	*  “ü—Íƒoƒbƒtƒ@‚ğŠm•Û‚·‚é
+	*  å…¥åŠ›ãƒãƒƒãƒ•ã‚¡ã‚’ç¢ºä¿ã™ã‚‹
 	*
 		move.l	#$00ffffff,d0
 		bsr	malloc
@@ -234,17 +234,17 @@ outbuf_ok:
 inpbuf_ok:
 		move.l	d0,inpbuf(a6)
 	*
-	*  •W€“ü—Í‚ğØ‚è‘Ö‚¦‚é
+	*  æ¨™æº–å…¥åŠ›ã‚’åˆ‡ã‚Šæ›¿ãˆã‚‹
 	*
-		clr.w	-(a7)				*  •W€“ü—Í‚ğ
-		DOS	_DUP				*  •¡»‚µ‚½ƒnƒ“ƒhƒ‹‚©‚ç“ü—Í‚µC
+		clr.w	-(a7)				*  æ¨™æº–å…¥åŠ›ã‚’
+		DOS	_DUP				*  è¤‡è£½ã—ãŸãƒãƒ³ãƒ‰ãƒ«ã‹ã‚‰å…¥åŠ›ã—ï¼Œ
 		addq.l	#2,a7
 		move.l	d0,stdin(a6)
 		bmi	stdin_ok
 
 		clr.w	-(a7)
-		DOS	_CLOSE				*  •W€“ü—Í‚ÍƒNƒ[ƒY‚·‚éD
-		addq.l	#2,a7				*  ‚±‚¤‚µ‚È‚¢‚Æ ^C ‚â ^S ‚ªŒø‚©‚È‚¢
+		DOS	_CLOSE				*  æ¨™æº–å…¥åŠ›ã¯ã‚¯ãƒ­ãƒ¼ã‚ºã™ã‚‹ï¼
+		addq.l	#2,a7				*  ã“ã†ã—ãªã„ã¨ ^C ã‚„ ^S ãŒåŠ¹ã‹ãªã„
 stdin_ok:
 		lea	msg_header2(pc),a1
 		st	show_header(a6)
@@ -259,7 +259,7 @@ stdin_ok:
 		shi	show_header(a6)
 do_files:
 	*
-	*  ŠJn
+	*  é–‹å§‹
 	*
 		tst.l	d7
 		beq	do_stdin
@@ -309,10 +309,10 @@ exit_program:
 		move.l	stdin(a6),d0
 		bmi	exit_program_1
 
-		clr.w	-(a7)				*  •W€“ü—Í‚ğ
-		move.w	d0,-(a7)			*  Œ³‚É
-		DOS	_DUP2				*  –ß‚·D
-		DOS	_CLOSE				*  •¡»‚ÍƒNƒ[ƒY‚·‚éD
+		clr.w	-(a7)				*  æ¨™æº–å…¥åŠ›ã‚’
+		move.w	d0,-(a7)			*  å…ƒã«
+		DOS	_DUP2				*  æˆ»ã™ï¼
+		DOS	_CLOSE				*  è¤‡è£½ã¯ã‚¯ãƒ­ãƒ¼ã‚ºã™ã‚‹ï¼
 exit_program_1:
 		move.w	d1,-(a7)
 		DOS	_EXIT2
@@ -544,7 +544,7 @@ tail_RelTop:
 		subq.l	#1,d2
 		bls	output_remainder_0
 		*
-		*  count-1unit“Ç‚İ‚Æ‚Î‚·
+		*  count-1unitèª­ã¿ã¨ã°ã™
 		*
 		btst	#FLAG_can_seek,d5
 		beq	skip_head
@@ -572,7 +572,7 @@ tail_done_0:
 		rts
 
 skip_head:
-		bsr	read_some			*  D4.L := —LŒøƒoƒCƒg”
+		bsr	read_some			*  D4.L := æœ‰åŠ¹ãƒã‚¤ãƒˆæ•°
 		beq	tail_done_0
 
 		btst	#FLAG_byte_unit,d5
@@ -612,7 +612,7 @@ tail_RelBot_Seekable:
 		tst.l	count(a6)
 		beq	tail_done_1
 		*
-		*  ˜_—“I‚Èƒtƒ@ƒCƒ‹‚ÌI‚í‚è‚ÉƒV[ƒN‚·‚é
+		*  è«–ç†çš„ãªãƒ•ã‚¡ã‚¤ãƒ«ã®çµ‚ã‚ã‚Šã«ã‚·ãƒ¼ã‚¯ã™ã‚‹
 		*
 		tst.b	ignore_from_ctrlz(a6)
 		bne	seek_to_logical_eof
@@ -625,13 +625,13 @@ tail_RelBot_Seekable:
 
 seek_to_logical_eof:
 		bsr	read_some
-		move.l	d0,d2				*  D2.L := “Ç‚İ‚ñ‚¾ƒoƒCƒg”
+		move.l	d0,d2				*  D2.L := èª­ã¿è¾¼ã‚“ã ãƒã‚¤ãƒˆæ•°
 		beq	seek_to_logical_eof_2		*  D0.L == 0
 
 		btst	#FLAG_eof,d5
 		beq	seek_to_logical_eof
 
-		*  EOFˆÈ~“Ç‚İi‚ñ‚Å‚µ‚Ü‚Á‚½•ª–ß‚é
+		*  EOFä»¥é™èª­ã¿é€²ã‚“ã§ã—ã¾ã£ãŸåˆ†æˆ»ã‚‹
 		move.l	d4,d0
 		sub.l	d2,d0
 seek_to_logical_eof_2:
@@ -640,14 +640,14 @@ seek_to_logical_eof_done:
 		bmi	seek_fail
 
 		bclr	#FLAG_eof,d5
-		*  ‚±‚±‚ÅCD0.L : Œ»İ‚ÌˆÊ’u
+		*  ã“ã“ã§ï¼ŒD0.L : ç¾åœ¨ã®ä½ç½®
 
 		btst	#FLAG_byte_unit,d5
 		bne	tail_RelBot_Seekable_Byte
 ****************
 tail_RelBot_Seekable_Line:
-		move.l	d0,d2				*  D2.L : Œ»İ‚ÌˆÊ’u
-		moveq	#0,d3				*  D3.L : æ‘–‚è—Ê
+		move.l	d0,d2				*  D2.L : ç¾åœ¨ã®ä½ç½®
+		moveq	#0,d3				*  D3.L : å…ˆèµ°ã‚Šé‡
 		move.l	count(a6),d4			*  D4.L : count
 		bsr	tail_file_lines_read
 		beq	tail_done_2
@@ -658,7 +658,7 @@ tail_RelBot_Seekable_Line:
 		cmpi.b	#LF,-1(a1)
 		beq	tail_RelBot_Seekable_Line_1
 
-		subq.l	#1,d4		*  ‰üs‚ÅI—¹‚µ‚Ä‚¢‚È‚¢ÅŒã‚Ì”¼’[‚Ès‚ğƒJƒEƒ“ƒg‚·‚é
+		subq.l	#1,d4		*  æ”¹è¡Œã§çµ‚äº†ã—ã¦ã„ãªã„æœ€å¾Œã®åŠç«¯ãªè¡Œã‚’ã‚«ã‚¦ãƒ³ãƒˆã™ã‚‹
 tail_RelBot_Seekable_Line_1:
 		move.l	d3,d0
 		bsr	backward_lines
@@ -683,7 +683,7 @@ tail_RelBot_Seekable_Byte_1:
 		bsr	seek_relative
 		bmi	seek_fail
 output_remainder_0:
-		bsr	read_some			*  D4.L := —LŒøƒoƒCƒg”
+		bsr	read_some			*  D4.L := æœ‰åŠ¹ãƒã‚¤ãƒˆæ•°
 		beq	tail_done_2
 output_remainder:
 		bsr	output_buf
@@ -752,12 +752,12 @@ tail_done_3:
 		rts
 ****************
 tail_RelBot_Unseekable:
-		*  ƒoƒbƒtƒ@‚É“ü‚é‚¾‚¯ƒf[ƒ^‚ğ“Ç‚ŞD
-		*  ƒoƒbƒtƒ@‚ªˆì‚ê‚½‚çCŒÃ‚¢ƒf[ƒ^‚ğ 1ƒoƒCƒg‚¸‚ÂÌ‚Ä‚éD
+		*  ãƒãƒƒãƒ•ã‚¡ã«å…¥ã‚‹ã ã‘ãƒ‡ãƒ¼ã‚¿ã‚’èª­ã‚€ï¼
+		*  ãƒãƒƒãƒ•ã‚¡ãŒæº¢ã‚ŒãŸã‚‰ï¼Œå¤ã„ãƒ‡ãƒ¼ã‚¿ã‚’ 1ãƒã‚¤ãƒˆãšã¤æ¨ã¦ã‚‹ï¼
 		movea.l	inpbuf(a6),a1
 		move.l	inpbuf_size(a6),d0
 		lea	(a1,d0.l),a2
-		moveq	#0,d2				*  D2 <- ƒoƒbƒtƒ@‚Ì—LŒøƒoƒCƒg”
+		moveq	#0,d2				*  D2 <- ãƒãƒƒãƒ•ã‚¡ã®æœ‰åŠ¹ãƒã‚¤ãƒˆæ•°
 read_to_buffer_loop:
 		move.l	#1,-(a7)
 		pea	charbuf(a6)
@@ -826,7 +826,7 @@ tail_RelBot_Unseekable_Line_1:
 		cmpi.b	#LF,(a1)
 		beq	tail_RelBot_Unseekable_Line_2
 
-		subq.l	#1,d4		*  ‰üs‚ÅI—¹‚µ‚Ä‚¢‚È‚¢ÅŒã‚Ì”¼’[‚Ès‚ğƒJƒEƒ“ƒg‚·‚é
+		subq.l	#1,d4		*  æ”¹è¡Œã§çµ‚äº†ã—ã¦ã„ãªã„æœ€å¾Œã®åŠç«¯ãªè¡Œã‚’ã‚«ã‚¦ãƒ³ãƒˆã™ã‚‹
 tail_RelBot_Unseekable_Line_2:
 		addq.l	#1,a1
 		move.l	a1,d0
@@ -919,8 +919,8 @@ tail_RelBot_Unseekable_Byte_1:
 		move.l	count(a6),d4
 		suba.l	d4,a1
 tail_RelBot_Unseekable_Byte_2:
-		*  A1 : o—Íƒf[ƒ^‚Ìæ“ªƒAƒhƒŒƒX
-		*  D4.L : o—Íƒf[ƒ^‚ÌƒoƒCƒg”
+		*  A1 : å‡ºåŠ›ãƒ‡ãƒ¼ã‚¿ã®å…ˆé ­ã‚¢ãƒ‰ãƒ¬ã‚¹
+		*  D4.L : å‡ºåŠ›ãƒ‡ãƒ¼ã‚¿ã®ãƒã‚¤ãƒˆæ•°
 		move.l	inpbuf(a6),d2
 		add.l	inpbuf_size(a6),d2
 		sub.l	a1,d2
@@ -959,7 +959,7 @@ output_buf_putc_loop:
 			cmp.b	#LF,d0
 			bne	output_buf_putc
 
-			st	cr_pending(a6)			*  LF‚Ì‘O‚ÉCR‚ğ‚Í‚©‚¹‚é‚½‚ß
+			st	cr_pending(a6)			*  LFã®å‰ã«CRã‚’ã¯ã‹ã›ã‚‹ãŸã‚
 output_buf_putc:
 			bsr	flush_cr
 			cmp.b	#CR,d0
@@ -998,17 +998,17 @@ output_buf_return_0:
 		moveq	#0,d0
 		rts
 *****************************************************************
-* write - ƒf[ƒ^‚ğ‘‚«o‚·
+* write - ãƒ‡ãƒ¼ã‚¿ã‚’æ›¸ãå‡ºã™
 *
 * CALL
-*      A1     æ“ªƒAƒhƒŒƒX
-*      D0.L   ƒoƒCƒg”
+*      A1     å…ˆé ­ã‚¢ãƒ‰ãƒ¬ã‚¹
+*      D0.L   ãƒã‚¤ãƒˆæ•°
 *
 * RETURN
-*      D0.L   ”j‰ó
+*      D0.L   ç ´å£Š
 *
 * DESCRIPTION
-*      ‘‚«o‚µ‚ªƒGƒ‰[‚¾‚Á‚½‚çƒAƒ{[ƒg‚·‚éD
+*      æ›¸ãå‡ºã—ãŒã‚¨ãƒ©ãƒ¼ã ã£ãŸã‚‰ã‚¢ãƒœãƒ¼ãƒˆã™ã‚‹ï¼
 *****************************************************************
 write:
 		tst.l	d0
@@ -1083,17 +1083,17 @@ backward_lines_return:
 		movem.l	(a7)+,d0			*  Do not change condition code
 		rts
 *****************************************************************
-* backward_a_line - ƒf[ƒ^‚ğƒPƒc‚©‚ç“ª‚ÉŒü‚©‚Á‚ÄƒXƒLƒƒƒ“‚µ‚Ä‰üs‚ğ’T‚·
+* backward_a_line - ãƒ‡ãƒ¼ã‚¿ã‚’ã‚±ãƒ„ã‹ã‚‰é ­ã«å‘ã‹ã£ã¦ã‚¹ã‚­ãƒ£ãƒ³ã—ã¦æ”¹è¡Œã‚’æ¢ã™
 *
 * CALL
-*      A1     ƒf[ƒ^‚Ì––”ö+1
-*      D0.L   ƒf[ƒ^‚ÌƒoƒCƒg”
+*      A1     ãƒ‡ãƒ¼ã‚¿ã®æœ«å°¾+1
+*      D0.L   ãƒ‡ãƒ¼ã‚¿ã®ãƒã‚¤ãƒˆæ•°
 *
 * RETURN
-*      A1     ‰üs‚ª‚ ‚ê‚ÎC‚»‚Ì‰üs‚Ì’¼Œã‚ğw‚·D
-*             ‰üs‚ª–³‚¯‚ê‚Îƒf[ƒ^‚Ìæ“ª‚ğw‚·D
-*      D0.L   ‰üs‚ª‚ ‚ê‚ÎC‚»‚Ì‰üsˆÈ‘O‚Éc‚Á‚Ä‚¢‚éƒoƒCƒg”D
-*             ‰üs‚ª–³‚¯‚ê‚Î 0D
+*      A1     æ”¹è¡ŒãŒã‚ã‚Œã°ï¼Œãã®æ”¹è¡Œã®ç›´å¾Œã‚’æŒ‡ã™ï¼
+*             æ”¹è¡ŒãŒç„¡ã‘ã‚Œã°ãƒ‡ãƒ¼ã‚¿ã®å…ˆé ­ã‚’æŒ‡ã™ï¼
+*      D0.L   æ”¹è¡ŒãŒã‚ã‚Œã°ï¼Œãã®æ”¹è¡Œä»¥å‰ã«æ®‹ã£ã¦ã„ã‚‹ãƒã‚¤ãƒˆæ•°ï¼
+*             æ”¹è¡ŒãŒç„¡ã‘ã‚Œã° 0ï¼
 *      CCR    ADDQ.L #1,D0
 *****************************************************************
 backward_a_line:
@@ -1196,20 +1196,20 @@ puts_done:
 read_return:
 		rts
 *****************************************************************
-* read - inpbuf ‚Éƒf[ƒ^‚ğ“Ç‚İ‚Ş
+* read - inpbuf ã«ãƒ‡ãƒ¼ã‚¿ã‚’èª­ã¿è¾¼ã‚€
 *
 * CALL
-*      D0.L   “Ç‚İ‚ŞƒoƒCƒg”DREADSIZEˆÈ‰º‚Å‚ ‚é‚±‚ÆD
-*      D1.W   ƒtƒ@ƒCƒ‹Eƒnƒ“ƒhƒ‹
+*      D0.L   èª­ã¿è¾¼ã‚€ãƒã‚¤ãƒˆæ•°ï¼READSIZEä»¥ä¸‹ã§ã‚ã‚‹ã“ã¨ï¼
+*      D1.W   ãƒ•ã‚¡ã‚¤ãƒ«ãƒ»ãƒãƒ³ãƒ‰ãƒ«
 *
 * RETURN
-*      D0.L   “Ç‚İ‚ñ‚¾ƒoƒCƒg”
+*      D0.L   èª­ã¿è¾¼ã‚“ã ãƒã‚¤ãƒˆæ•°
 *      A1     inpbuf
 *      CCR    TST.L D0
 *
 * DESCRIPTION
-*      D0.L ƒoƒCƒg‚ğŒÀ“x‚É“Ç‚İ‚ŞD
-*      “Ç‚İ‚İ‚ªƒGƒ‰[‚¾‚Á‚½‚çƒAƒ{[ƒg‚·‚éD
+*      D0.L ãƒã‚¤ãƒˆã‚’é™åº¦ã«èª­ã¿è¾¼ã‚€ï¼
+*      èª­ã¿è¾¼ã¿ãŒã‚¨ãƒ©ãƒ¼ã ã£ãŸã‚‰ã‚¢ãƒœãƒ¼ãƒˆã™ã‚‹ï¼
 *****************************************************************
 read:
 		movea.l	inpbuf(a6),a1
@@ -1231,20 +1231,20 @@ werror_exit_2:
 		moveq	#2,d1
 		bra	exit_program
 *****************************************************************
-* read_some - inpbuf ‚Éƒf[ƒ^‚ğ“Ç‚İ‚Ş
+* read_some - inpbuf ã«ãƒ‡ãƒ¼ã‚¿ã‚’èª­ã¿è¾¼ã‚€
 *
 * CALL
-*      D1.W   ƒtƒ@ƒCƒ‹Eƒnƒ“ƒhƒ‹
+*      D1.W   ãƒ•ã‚¡ã‚¤ãƒ«ãƒ»ãƒãƒ³ãƒ‰ãƒ«
 *
 * RETURN
-*      D0.L   “Ç‚İ‚ñ‚¾ƒoƒCƒg”
-*      D4.L   Ø‚è‹l‚ßŒã‚ÌƒoƒCƒg”
+*      D0.L   èª­ã¿è¾¼ã‚“ã ãƒã‚¤ãƒˆæ•°
+*      D4.L   åˆ‡ã‚Šè©°ã‚å¾Œã®ãƒã‚¤ãƒˆæ•°
 *      A1     inpbuf
 *      CCR    TST.L D4
 *
 * DESCRIPTION
-*      READSIZE ƒoƒCƒg‚ğŒÀ“x‚É“Ç‚İ‚İCtrunc‚·‚éD
-*      “Ç‚İ‚İ‚ªƒGƒ‰[‚¾‚Á‚½‚çƒAƒ{[ƒg‚·‚éD
+*      READSIZE ãƒã‚¤ãƒˆã‚’é™åº¦ã«èª­ã¿è¾¼ã¿ï¼Œtruncã™ã‚‹ï¼
+*      èª­ã¿è¾¼ã¿ãŒã‚¨ãƒ©ãƒ¼ã ã£ãŸã‚‰ã‚¢ãƒœãƒ¼ãƒˆã™ã‚‹ï¼
 *****************************************************************
 read_some:
 		move.l	#READSIZE,d0
@@ -1284,14 +1284,14 @@ trunc_find_loop:
 trunc_return:
 		rts
 *****************************************************************
-* seek_to_phigical_eof - •¨—“I‚Èƒtƒ@ƒCƒ‹‚ÌI‚í‚è‚ÉƒV[ƒN‚·‚é
+* seek_to_phigical_eof - ç‰©ç†çš„ãªãƒ•ã‚¡ã‚¤ãƒ«ã®çµ‚ã‚ã‚Šã«ã‚·ãƒ¼ã‚¯ã™ã‚‹
 *
 * CALL
-*      D1.W   ƒtƒ@ƒCƒ‹Eƒnƒ“ƒhƒ‹
+*      D1.W   ãƒ•ã‚¡ã‚¤ãƒ«ãƒ»ãƒãƒ³ãƒ‰ãƒ«
 *
 * RETURN
-*      D0.L   æ“ª‚©‚ç‚ÌƒIƒtƒZƒbƒg
-*             •‰‚È‚ç‚ÎOS‚ÌƒGƒ‰[ƒR[ƒh
+*      D0.L   å…ˆé ­ã‹ã‚‰ã®ã‚ªãƒ•ã‚»ãƒƒãƒˆ
+*             è² ãªã‚‰ã°OSã®ã‚¨ãƒ©ãƒ¼ã‚³ãƒ¼ãƒ‰
 *      CCR    TST.L D0
 *****************************************************************
 seek_to_phigical_eof:
@@ -1306,43 +1306,43 @@ seeksub:
 		tst.l	d0
 		rts
 *****************************************************************
-* seek_relative - ‘Š‘Î“I‚ÉƒV[ƒN‚·‚é
+* seek_relative - ç›¸å¯¾çš„ã«ã‚·ãƒ¼ã‚¯ã™ã‚‹
 *
 * CALL
-*      D0.L   Œ»İˆÊ’u‚É‘Î‚·‚éƒIƒtƒZƒbƒg
-*      D1.W   ƒtƒ@ƒCƒ‹Eƒnƒ“ƒhƒ‹
+*      D0.L   ç¾åœ¨ä½ç½®ã«å¯¾ã™ã‚‹ã‚ªãƒ•ã‚»ãƒƒãƒˆ
+*      D1.W   ãƒ•ã‚¡ã‚¤ãƒ«ãƒ»ãƒãƒ³ãƒ‰ãƒ«
 *
 * RETURN
-*      D0.L   æ“ª‚©‚ç‚ÌƒIƒtƒZƒbƒg
-*             •‰‚È‚ç‚ÎOS‚ÌƒGƒ‰[ƒR[ƒh
+*      D0.L   å…ˆé ­ã‹ã‚‰ã®ã‚ªãƒ•ã‚»ãƒƒãƒˆ
+*             è² ãªã‚‰ã°OSã®ã‚¨ãƒ©ãƒ¼ã‚³ãƒ¼ãƒ‰
 *      CCR    TST.L D0
 *****************************************************************
 seek_relative:
 		move.w	#1,-(a7)
 		bra	seeksub
 *****************************************************************
-* seek_from_top - â‘ÎˆÊ’u‚ÉƒV[ƒN‚·‚é
+* seek_from_top - çµ¶å¯¾ä½ç½®ã«ã‚·ãƒ¼ã‚¯ã™ã‚‹
 *
 * CALL
-*      D0.L   ƒV[ƒNˆÊ’uiæ“ª‚©‚ç‚ÌƒIƒtƒZƒbƒgj
-*      D1.W   ƒtƒ@ƒCƒ‹Eƒnƒ“ƒhƒ‹
+*      D0.L   ã‚·ãƒ¼ã‚¯ä½ç½®ï¼ˆå…ˆé ­ã‹ã‚‰ã®ã‚ªãƒ•ã‚»ãƒƒãƒˆï¼‰
+*      D1.W   ãƒ•ã‚¡ã‚¤ãƒ«ãƒ»ãƒãƒ³ãƒ‰ãƒ«
 *
 * RETURN
-*      D0.L   æ“ª‚©‚ç‚ÌƒIƒtƒZƒbƒg
-*             •‰‚È‚ç‚ÎOS‚ÌƒGƒ‰[ƒR[ƒh
+*      D0.L   å…ˆé ­ã‹ã‚‰ã®ã‚ªãƒ•ã‚»ãƒƒãƒˆ
+*             è² ãªã‚‰ã°OSã®ã‚¨ãƒ©ãƒ¼ã‚³ãƒ¼ãƒ‰
 *      CCR    TST.L D0
 *****************************************************************
 seek_from_top:
 		clr.w	-(a7)
 		bra	seeksub
 *****************************************************************
-* check_input_device - “ü—ÍƒfƒoƒCƒX‚ğƒ`ƒFƒbƒN‚·‚é
+* check_input_device - å…¥åŠ›ãƒ‡ãƒã‚¤ã‚¹ã‚’ãƒã‚§ãƒƒã‚¯ã™ã‚‹
 *
 * CALL
-*      D1.W   ƒtƒ@ƒCƒ‹Eƒnƒ“ƒhƒ‹
+*      D1.W   ãƒ•ã‚¡ã‚¤ãƒ«ãƒ»ãƒãƒ³ãƒ‰ãƒ«
 *
 * RETURN
-*      D0.L   ”j‰ó
+*      D0.L   ç ´å£Š
 *****************************************************************
 check_input_device:
 		btst	#FLAG_Z,d5
@@ -1350,7 +1350,7 @@ check_input_device:
 		sf	ignore_from_ctrld(a6)
 		move.w	d1,d0
 		bsr	is_chrdev
-		beq	check_input_device_seekable	*  -- ƒuƒƒbƒNEƒfƒoƒCƒX
+		beq	check_input_device_seekable	*  -- ãƒ–ãƒ­ãƒƒã‚¯ãƒ»ãƒ‡ãƒã‚¤ã‚¹
 
 		btst	#5,d0				*  '0':cooked  '1':raw
 		bne	check_input_device_seekable
@@ -1433,18 +1433,18 @@ werror_1:
 	dc.b	'## tail 1.4 ##  Copyright(C)1993-95 by Itagaki Fumihiko',0
 
 msg_myname:		dc.b	'tail: ',0
-msg_no_memory:		dc.b	'ƒƒ‚ƒŠ‚ª‘«‚è‚Ü‚¹‚ñ',CR,LF,0
-msg_open_fail:		dc.b	': ƒI[ƒvƒ“‚Å‚«‚Ü‚¹‚ñ',CR,LF,0
-msg_read_fail:		dc.b	': “ü—ÍƒGƒ‰[',CR,LF,0
-msg_write_fail:		dc.b	'tail: o—ÍƒGƒ‰[',CR,LF,0
-msg_stdin:		dc.b	'- •W€“ü—Í -',0
-msg_illegal_option:	dc.b	'•s³‚ÈƒIƒvƒVƒ‡ƒ“ -- ',0
-msg_illegal_count:	dc.b	'ƒJƒEƒ“ƒg‚Ìw’è‚ª•s³‚Å‚·',0
+msg_no_memory:		dc.b	'ãƒ¡ãƒ¢ãƒªãŒè¶³ã‚Šã¾ã›ã‚“',CR,LF,0
+msg_open_fail:		dc.b	': ã‚ªãƒ¼ãƒ—ãƒ³ã§ãã¾ã›ã‚“',CR,LF,0
+msg_read_fail:		dc.b	': å…¥åŠ›ã‚¨ãƒ©ãƒ¼',CR,LF,0
+msg_write_fail:		dc.b	'tail: å‡ºåŠ›ã‚¨ãƒ©ãƒ¼',CR,LF,0
+msg_stdin:		dc.b	'- æ¨™æº–å…¥åŠ› -',0
+msg_illegal_option:	dc.b	'ä¸æ­£ãªã‚ªãƒ—ã‚·ãƒ§ãƒ³ -- ',0
+msg_illegal_count:	dc.b	'ã‚«ã‚¦ãƒ³ãƒˆã®æŒ‡å®šãŒä¸æ­£ã§ã™',0
 msg_header1:		dc.b	CR,LF
 msg_header2:		dc.b	'==> ',0
 msg_header3:		dc.b	' <=='
 msg_newline:		dc.b	CR,LF,0
-msg_usage:		dc.b	CR,LF,'g—p–@:  tail [-qvBCZ] { [ {-+}<#>[ckl][-<#>[ckl]] | -[<#>]r ] [--] [<ƒtƒ@ƒCƒ‹>] } ...',CR,LF,0
+msg_usage:		dc.b	CR,LF,'ä½¿ç”¨æ³•:  tail [-qvBCZ] { [ {-+}<#>[ckl][-<#>[ckl]] | -[<#>]r ] [--] [<ãƒ•ã‚¡ã‚¤ãƒ«>] } ...',CR,LF,0
 *****************************************************************
 offset 0
 stdin:			ds.l	1

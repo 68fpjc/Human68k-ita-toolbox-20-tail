@@ -1,37 +1,37 @@
-���h�̂͏ȗ����Ă��܂��B
+※敬称は省略しています。
 
 
 Version 1.4
 
-* �o�͂�cooked���[�h�̃L�����N�^�E�f�o�C�X�łȂ��ꍇ�� -B�I�v�V�������w��
-  ����Ă���ꍇ��, +count1-count2 �� -count1-count2 �̌`����count2���s�P
-  �ʂł����Ă��o�C�g�P�ʂƂ��ď�������Ă��܂��s����C��.
-  �iThanks to ���l�j
+* 出力がcookedモードのキャラクタ・デバイスでない場合や -Bオプションが指定
+  されている場合に, +count1-count2 や -count1-count2 の形式でcount2が行単
+  位であってもバイト単位として処理されてしまう不具合を修正.
+  （Thanks to 民斗）
 
 Version 1.3
 
-* -count1-count2 �� +count1-count2 �ł� count2 ���ŏ��̃t�@�C���ɂ�������
-  �Ȃ��o�O���C��.
+* -count1-count2 や +count1-count2 での count2 が最初のファイルにしか効か
+  ないバグを修正.
 
 Version 1.2
 
-* count�̎w��`�����g��.
+* countの指定形式を拡張.
 
-* RAW CHAR �f�o�C�X����͂���Ɩ��������[�v�ɓ���o�O���C��.
+* RAW CHAR デバイスを入力すると無条件ループに入るバグを修正.
 
 Version 1.1
 
-* �h�L�������g�̏C��.
+* ドキュメントの修正.
 
-* ���ׂȕύX.
+* 些細な変更.
 
-* +count �̌��ʂ� 1 ����Ă���o�O�i�d�l�̃o�O�j���C��.
+* +count の結果が 1 ずれているバグ（仕様のバグ）を修正.
 
-* �V�[�N�ł��Ȃ��f�o�C�X�Ő���ɓ��삵�Ă��Ȃ������o�O���C��.
+* シークできないデバイスで正常に動作していなかったバグを修正.
 
-* �W�����͂��؂�ւ����Ă��Ă��[������^C��^S�Ȃǂ������悤�ɂ���.
+* 標準入力が切り替えられていても端末から^Cや^Sなどが効くようにした.
 
 Version 1.0
 
-* �쐬.
+* 作成.
 
